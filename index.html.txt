@@ -1,0 +1,165 @@
+<!DOCTYPE html> 
+
+<html lang="en"> 
+
+<head> 
+
+    <meta charset="UTF-8"> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <title>McGlothin Notary Services | Mobile Notary in Atlanta, GA</title> 
+
+    <meta name="description" content="Mobile notary in Atlanta. I provide loan signings, acknowledgments, and remote notarization. Evenings & weekends. Call (470) 210-4549."> 
+
+    <link rel="icon" href="favicon.png" type="image/png"> 
+
+    <style> 
+
+        body { font-family: Arial, sans-serif; margin:0; padding:0; line-height:1.6; color:#333; } 
+
+        header { background:#00539C; color:#fff; padding:60px 20px; text-align:center; background-image: url('images/hero.jpg'); background-size: cover; background-position: center; } 
+
+        header h1 { margin:0; font-size:2.5em; background: rgba(0,0,0,0.5); display: inline-block; padding: 10px 20px; border-radius: 10px; } 
+
+        header p { font-size:1.2em; margin:10px 0 20px; background: rgba(0,0,0,0.5); display:inline-block; padding:5px 10px; border-radius:5px; } 
+
+        header a.button { background:#FFC72C; color:#00539C; padding:12px 25px; text-decoration:none; font-weight:bold; border-radius:5px; display:inline-block; margin-top:15px; } 
+
+        section { padding:60px 20px; max-width:900px; margin:0 auto; } 
+
+        h2 { text-align:center; color:#00539C; margin-bottom:40px; } 
+
+        ul { list-style:none; padding:0; } 
+
+        ul li { margin:10px 0; } 
+
+        form { display:flex; flex-direction:column; max-width:500px; margin:0 auto; } 
+
+        form input, form textarea, form select { padding:10px; margin:10px 0; border:1px solid #ccc; border-radius:5px; font-size:1em; } 
+
+        form button { background:#00539C; color:#fff; padding:12px; border:none; border-radius:5px; font-size:1em; cursor:pointer; } 
+
+        footer { background:#333; color:#fff; text-align:center; padding:20px; } 
+
+        footer a { color:#FFC72C; text-decoration:none; } 
+
+        @media(max-width:600px){ header h1 { font-size:2em; } } 
+
+    </style> 
+
+</head> 
+
+<body> 
+
+  
+
+<header> 
+
+    <img src="logo.png" alt="McGlothin Notary Services Logo" style="max-width:150px; margin-bottom:15px;"> 
+
+    <h1>McGlothin Notary Services</h1> 
+
+    <p>Mobile & Remote Notary in Atlanta — Fast, Reliable, Courteous</p> 
+
+    <a href="#contact" class="button">Book Appointment</a> 
+
+</header> 
+
+  
+
+<section id="about"> 
+
+    <h2>About Me</h2> 
+
+    <p>Hi, I’m [Your Name], a commissioned Notary Public in Georgia (Commission #xxxx). I provide mobile notarizations, loan signing assistance, and remote online notarization when eligible. Insured and bonded for your peace of mind.</p> 
+
+</section> 
+
+  
+
+<section id="services"> 
+
+    <h2>Services</h2> 
+
+    <ul> 
+
+        <li>Mobile Notary — I come to your home or office</li> 
+
+        <li>Loan Signings & Real Estate Closings</li> 
+
+        <li>Acknowledgements, Jurats, Oaths, Powers of Attorney</li> 
+
+        <li>Remote Online Notary (RON) — check eligibility</li> 
+
+    </ul> 
+
+</section> 
+
+  
+
+<section id="pricing"> 
+
+    <h2>Pricing</h2> 
+
+    <p>Starting at <strong>$25 + $0.75/mile</strong>. Travel fee applies outside [zip/area]. Contact for custom quotes for loan signings or multiple documents.</p> 
+
+</section> 
+
+  
+
+<section id="contact"> 
+
+    <h2>Contact / Book Appointment</h2> 
+
+    <form name="contact" method="POST" data-netlify="true"> 
+
+        <input type="text" name="name" placeholder="Full Name" required> 
+
+        <input type="tel" name="phone" placeholder="Phone" required> 
+
+        <input type="email" name="email" placeholder="Email" required> 
+
+        <select name="service" required> 
+
+            <option value="">Select Service</option> 
+
+            <option value="Mobile Notary">Mobile Notary</option> 
+
+            <option value="Loan Signing">Loan Signing</option> 
+
+            <option value="Acknowledgement">Acknowledgement</option> 
+
+            <option value="Other">Other</option> 
+
+        </select> 
+
+        <input type="text" name="date" placeholder="Preferred Date/Time"> 
+
+        <input type="text" name="address" placeholder="Appointment Address"> 
+
+        <textarea name="notes" placeholder="Additional Notes" rows="4"></textarea> 
+
+        <button type="submit">Submit</button> 
+
+    </form> 
+
+</section> 
+
+  
+
+<footer> 
+
+    <p>&copy; 2025 McGlothin Notary Services</p> 
+
+    <p><a href="tel:4702104549">(470) 210-4549</a> | <a href="mailto:info@mcgnotary.com">info@mcgnotary.com</a></p> 
+
+</footer> 
+
+  
+
+</body> 
+
+</html> 
+
+ 
