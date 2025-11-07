@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | McGlothin Notary Services LLC</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f7fa;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #1b263b;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    header a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+      line-height: 1.6;
+    }
+    footer {
+      background-color: #1b263b;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>McGlothin Notary Services LLC</h1>
+    <p><a href="index.html">Home</a> | <a href="services.html">Services</a> | <a href="about.html">About</a></p>
+  </header>
+
+  <section>
+    <h2>About McGlothin Notary Services</h2>
+    <p>McGlothin Notary Services LLC is a trusted mobile notary business based in Georgia, founded by <strong>C. McGlothin</strong>. We provide professional, reliable, and affordable notarial services with a focus on accuracy, confidentiality, and convenience.</p>
+
+    <p>Our mission is to make notarization simple and stress-free for individuals and businesses alike. Whether you need a loan signing, legal affidavit, power of attorney, or real estate closing, we come to your location on your schedule.</p>
+
+    <p>We believe in professionalism, punctuality, and personalized service — helping our clients complete important transactions with confidence and peace of mind.</p>
+  </section>
+
+  <footer>
+    © 2025 McGlothin Notary Services LLC | All Rights Reserved
+  </footer>
+</body>
+</html>
