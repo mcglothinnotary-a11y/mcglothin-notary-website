@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>McGlothin Notary Services LLC</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f7fa;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: #333;
+    }
+    header {
+      background-color: #1b263b;
+      color: white;
+      padding: 40px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    header p {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    .btn {
+      background-color: #0077b6;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    .btn:hover {
+      background-color: #005f8a;
+    }
+    footer {
+      background-color: #1b263b;
+      color: white;
+      padding: 15px;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+    img {
+      width: 150px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Logo.png" alt="McGlothin Notary Services Logo">
+    <h1>McGlothin Notary Services LLC</h1>
+    <p>Professional Mobile Notary & Loan Signing Agent in Georgia</p>
+  </header>
+
+  <section>
+    <h2>Fast, Reliable, and Certified</h2>
+    <p>We provide trusted notary services for real estate closings, legal documents, power of attorney, affidavits, and more. Available by appointment — we come to you.</p>
+    <p><a href="mailto:info@mcgnotary.com" class="btn">Book an Appointment</a></p>
+  </section>
+
+  <section>
+    <h2>Contact Information</h2>
+    <p>Email: info@mcgnotary.com</p>
+    <p>Phone: (470) 210-4549</p>
+    <p>Serving: Metro Atlanta & Surrounding Areas</p>
+  </section>
+
+  <footer>
+    © 2025 McGlothin Notary Services LLC | All Rights Reserved
+  </footer>
+</body>
+</html>
