@@ -57,6 +57,27 @@
       opacity: 0.9;
     }
 
+    /* ✅ HEADER BOOKING BUTTON (NEW) */
+    .header-book {
+      display: inline-block;
+      margin-top: 1rem;
+      background: #ffffff;
+      color: #1f2a44;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .header-book:hover {
+      opacity: 0.92;
+    }
+
+    .header-book:focus-visible {
+      outline: 3px solid #ffffff;
+      outline-offset: 4px;
+    }
+
     main {
       max-width: 900px;
       margin: 2rem auto;
@@ -103,6 +124,10 @@
       font-weight: 600;
     }
 
+    .cta a:hover {
+      opacity: 0.92;
+    }
+
     footer {
       text-align: center;
       padding: 1.5rem;
@@ -122,6 +147,10 @@
       header h1 {
         font-size: 1.6rem;
       }
+
+      .header-book {
+        padding: 0.8rem 1.2rem;
+      }
     }
   </style>
 </head>
@@ -132,6 +161,9 @@
     <img src="logo.png" alt="McGlothin Notary Services LLC logo" class="logo">
     <h1>McGlothin Notary Services LLC</h1>
     <p>Mobile & Remote Online Notary Services</p>
+    <a class="header-book" href="https://calendly.com/pique-pastier-2q/30min" target="_blank" rel="noopener">
+      Book an Appointment
+    </a>
   </header>
 
   <main role="main">
@@ -160,13 +192,13 @@
       <p>Serving Metro Atlanta and surrounding areas.</p>
     </section>
 
-   <section class="cta">
-  <h2>Schedule an Appointment</h2>
-  <p>Choose a time that works best for you.</p>
-  <a href="https://calendly.com/pique-pastier-2q/30min" target="_blank" rel="noopener">
-    Book an Appointment
-  </a>
-</section>
+    <section class="cta">
+      <h2>Schedule an Appointment</h2>
+      <p>Choose a time that works best for you.</p>
+      <a href="https://calendly.com/pique-pastier-2q/30min" target="_blank" rel="noopener">
+        Book an Appointment
+      </a>
+    </section>
 
   </main>
 
