@@ -66,13 +66,16 @@
       text-align: center;
     }
 
+    /* LOGO — white background removed */
     .logo {
       max-width: 300px;
       margin-bottom: 1.25rem;
-      background: #ffffff;
-      border-radius: 12px;
-      padding: 18px;
-      display: inline-block;
+      background: transparent;
+      padding: 0;
+      border-radius: 0;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     header h1 {
@@ -166,9 +169,9 @@
     }
 
     @media (max-width: 600px) {
-  .logo {
-    max-width: 160px;
-  }
+      .logo {
+        max-width: 160px;
+      }
 
       header h1 {
         font-size: 1.6rem;
