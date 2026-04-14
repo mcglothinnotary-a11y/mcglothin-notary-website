@@ -69,9 +69,6 @@
     .logo {
       max-width: 300px;
       margin-bottom: 1.25rem;
-      background: transparent;
-      padding: 0;
-      border-radius: 0;
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -86,6 +83,11 @@
       margin-top: 0.5rem;
       font-size: 1.1rem;
       opacity: 0.9;
+    }
+
+    .appointment-note {
+      font-size: 0.95rem;
+      opacity: 0.85;
     }
 
     main {
@@ -112,16 +114,9 @@
 
     ul {
       padding-left: 1.2rem;
-      margin-bottom: 0;
-    }
-
-    ul li {
-      margin-bottom: 0.55rem;
     }
 
     .subnote {
-      display: inline-block;
-      margin-top: 0.2rem;
       color: #666;
       font-size: 0.95rem;
     }
@@ -148,39 +143,11 @@
       font-weight: 600;
     }
 
-    .cta a:hover {
-      opacity: 0.92;
-    }
-
     footer {
       text-align: center;
       padding: 1.5rem;
       font-size: 0.9rem;
       color: #666;
-    }
-
-    footer p {
-      margin: 0.3rem 0;
-    }
-
-    footer a {
-      color: #1f2a44;
-      text-decoration: none;
-      font-weight: 500;
-    }
-
-    footer a:hover {
-      text-decoration: underline;
-    }
-
-    @media (max-width: 600px) {
-      .logo {
-        max-width: 160px;
-      }
-
-      header h1 {
-        font-size: 1.6rem;
-      }
     }
   </style>
 </head>
@@ -191,16 +158,19 @@
     <img src="logo.png" alt="McGlothin Notary Services LLC logo" class="logo">
     <h1>McGlothin Notary Services LLC</h1>
     <p>Professional Mobile Notary Services</p>
+    <p class="appointment-note">
+      Available by appointment during posted business hours
+    </p>
   </header>
 
-  <main role="main">
+  <main>
 
     <section>
       <h2>About</h2>
       <p>
         McGlothin Notary Services LLC provides professional, reliable, and confidential
         mobile notary services for individuals and businesses throughout Metro Atlanta
-        and surrounding areas. McGlothin Notary Services LLC provides professional, reliable, and confidential mobile notary services for individuals and businesses throughout Metro Atlanta and surrounding areas. Services are provided by appointment at the client’s location and are available during posted business hours.
+        and surrounding areas. Services are provided by appointment at the client’s location and are available during posted business hours.
       </p>
     </section>
 
@@ -210,13 +180,13 @@
         <li>Mobile Notary Services</li>
         <li>Loan Document Notarization</li>
         <li>
-          Estate Planning Document Notarization<br>
+          Estate Planning Document Notarization
           <span class="subnote">(Wills, Powers of Attorney, Advance Directives)</span>
         </li>
-        <li>Hospital &amp; Nursing Home Notary Visits</li>
-        <li>Small Business &amp; Corporate Document Notarization</li>
+        <li>Hospital & Nursing Home Notary Visits</li>
+        <li>Small Business & Corporate Document Notarization</li>
         <li>Apostille Coordination Assistance <span class="subnote">(Third-Party Processing)</span></li>
-        <li>Same-Day &amp; After-Hours Appointments</li>
+        <li>Same-Day & After-Hours Appointments</li>
       </ul>
 
       <p class="services-disclaimer">
@@ -234,23 +204,16 @@
 
     <section class="cta">
       <h2>Schedule an Appointment</h2>
-      <a href="https://calendly.com/pique-pastier-2q-pz0g/30min" target="_blank" rel="noopener">
-  Book Mobile Notary Appointment
-</a>
+      <a href="https://calendly.com/pique-pastier-2q-pz0g/30min" target="_blank">
+        Book Mobile Notary Appointment
       </a>
     </section>
 
   </main>
 
   <footer>
-    <p>
-      Email:
-      <a href="mailto:info@mcgnotary.com">info@mcgnotary.com</a>
-    </p>
+    <p>Email: <a href="mailto:info@mcgnotary.com">info@mcgnotary.com</a></p>
     <p>© 2025 McGlothin Notary Services LLC</p>
-    <p style="font-size: 0.8rem;">
-      McGlothin Notary Services LLC is not an attorney and does not provide legal or financial advice.
-    </p>
   </footer>
 
 </body>
